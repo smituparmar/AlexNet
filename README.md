@@ -11,12 +11,16 @@ It has 5 layer CNN which is detailed as follows
 
 Layer-1
 Conv 1 - filters=96 size=(11,11) stride=4 padding=0
+<br/>
 Pooling1- size=(3,3) stride=2
+<br/>
 Normalization- I have used BatchNormalization
 
 Layer-2
 Conv 2 - filters=256,size=(5,5) stride=1, padding=2
+<br/>
 Pooling2- size=(3,3) stride=2
+<br/>
 Normalization- I have used BatchNormalization
 
 Layer-3
@@ -27,7 +31,9 @@ Conv 4 - filters=384,size=(3,3) stride=1, padding=1
 
 Layer-5
 Conv 5 - filters=256,size=(3,3) stride=1, padding=1
+<br/>
 Pooling2- size=(3,3) stride=2
+<br/>
 Normalization- I have used BatchNormalization
 
 Now it has 2 Dense Layer and one for output layer.
