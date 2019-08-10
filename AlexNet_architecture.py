@@ -42,7 +42,7 @@ model=Sequential([
         Dropout(0.5),
         
         #number of classes or output.
-        Dense(1000,activation='relu'),
+        Dense(1000,activation='softmax'),
         
         ])
 model.summary()
